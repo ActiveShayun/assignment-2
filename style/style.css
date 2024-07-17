@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* font family */
+body{
+    font-family: "Inter", sans-serif;
+}
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css variable */
+:root{
+    --btn-backround-color: rgb(230, 83, 60);
+    --peraghaph-color: rgba(255, 255, 255, 0.5);
+    --peraghaph-font-size: 1rem;
+    --p-font-weight: 400;
+    --title-color: rgb(255, 255, 255);
+    --title-size: 3rem;
+    --title-weight: 700;
+    --secondry-bg-color:  rgb(34, 34, 34);
+    --main-bg-color: #000000;
+}
+
+.basic-btn{
+    background-color: var(--btn-backround-color);
+    font-size: 1rem;
+    font-weight: var(--p-font-weight);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 1.7rem;
+}
+
+.baner-btn{
+    background-color: black;
+    font-size: 1rem;
+    font-weight: var(--p-font-weight);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+   border: 1px solid white;
+}
+
+/* header style */
+
+.header{
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 40px  70px 0px 70px;
+    background-color: #000000;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin-right: 1.7rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: var(--p-font-weight);
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover{
+     color: var(--btn-backround-color);
+}
+
+.navbar ul li .active{
+       background-color: var(--btn-backround-color);
+       padding: 6px 12px;
+       border-radius: 15px;
+
+}
+
+.nav-title{
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-style: oblique;
+    color: var(--btn-backround-color);
+}
+
+/* baner style */
+
+.baner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.baner-title{
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 1.7rem;
+}
+
+
+.child-baner-2{
+    position: relative;
+    padding-right: 50px;
+   padding-top: 30px;
+}
+
+.child-baner-2 img{
+    width: 100%;
+}
+
+.mini-child-1{
+    color: white;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 180px;
+    height: 90px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    right: -16px;
+}
+
+.mini-child-2{
+    color: white;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 180px;
+    height: 90px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+     bottom: 70px;
+     left: -100px;
+}
+
+.same{
+    color: var(--peraghaph-color);
+    font-size: var(--peraghaph-font-size);
+    margin-top: 0.5rem;
+}
+
+
+.title-style{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 4.8rem;
+}
+
+.baner-discription{
+    font-size: var(--peraghaph-font-size);
+    font-weight: var(--p-font-weight);
+    color: var(--peraghaph-color);
+    margin-bottom: 2rem;
+}
+
+
+
+
+
