@@ -90,7 +90,10 @@ body{
        background-color: var(--btn-backround-color);
        padding: 6px 12px;
        border-radius: 15px;
+}
 
+.navbar ul li .active:hover{
+        color: black;
 }
 
 .nav-title{
@@ -151,10 +154,17 @@ body{
     display: flex;
     align-items:center ;
     justify-content: center;
-    flex-direction: column;
     position: absolute;
      bottom: 70px;
      left: -100px;
+}
+
+.baby-1{
+    width: 25px;
+    height: 25px;
+    background-color: var(--btn-backround-color);
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .same{
@@ -177,6 +187,69 @@ body{
     font-weight: var(--p-font-weight);
     color: var(--peraghaph-color);
     margin-bottom: 2rem;
+}
+
+
+/* main contant */
+
+.main-containers{
+    background-color: black;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+ /* first section  */
+
+.habit-title{
+font-size: 3rem;
+color: var(--title-color);
+font-weight: var(--title-weight);
+text-align: center;
+margin-bottom: 1.5rem;
+}
+
+.habit-discription{
+    font-size: var(--peraghaph-font-size);
+    color: var(--peraghaph-color);
+    font-weight: var(--p-font-weight);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.child-habit{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+
+}
+
+.imag-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imag-box  img {
+     border-radius: 50%;
+     margin-bottom: 1rem;
+}
+
+.imag-title{
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.imag-discription{
+    font-size: var(--peraghaph-font-size);
+    color: var(--peraghaph-color);
+    font-weight: var(--p-font-weight);
+    text-align: center;
+  
 }
 
 
