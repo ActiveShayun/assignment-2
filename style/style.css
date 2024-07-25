@@ -72,7 +72,7 @@ body{
 
 .navbar ul li{
     list-style-type: none;
-    margin-right: 1.7rem;
+    margin-left: 1.7rem;
 }
 
 .navbar ul li a{
@@ -101,6 +101,11 @@ body{
     font-weight: 800;
     font-style: oblique;
     color: var(--btn-backround-color);
+}
+
+.mobileMemu .fa-bars{
+    font-size: 2rem;
+    display: block;
 }
 
 /* baner style */
@@ -417,7 +422,7 @@ table caption{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    justify-items: center;
+    justify-content: center;
     gap: 1rem;
     background-color: var(--secondry-bg-color);
     padding: 1rem;
@@ -458,6 +463,92 @@ table caption{
     border-radius: 7px;
     filter: brightness(70%);
 }
+
+/* footer stylings */
+.footer{
+    max-width: 1290px;
+    height: 400px;
+    background-color: var(--secondry-bg-color);
+    margin: 0 auto;
+    padding: 4rem 10rem 7rem;
+}
+.footer .lastDec{
+     text-align: center;
+     color: var(--peraghaph-color);
+     font-size: var(--peraghaph-font-size);
+     font-weight: var(--p-font-weight);
+     margin-top: 3rem;
+}
+
+.footerTitle{
+    font-size: 4rem;
+    color: var(--btn-backround-color);
+    font-weight: var(--title-weight);
+    font-style: italic;
+    margin-bottom: 1.2rem;
+}
+
+.footerDec{
+    color: var(--peraghaph-color);
+    font-size: var(--peraghaph-font-size);
+    font-weight: var(--p-font-weight);
+}
+
+
+
+.childFooter:first-child{
+    max-width: 450px;
+    height: 172px;
+}
+
+
+
+.childFooter:nth-child(2){
+   max-width: 180px;
+   height: 172px;
+}
+
+.childFooter:last-child{
+    max-width: 170px;
+    height: 172px;
+}
+.childFooter:last-child .footerLink{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--peraghaph-color);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+
+.secondTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.footerLink {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--peraghaph-color);
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+
+
+
+
 
 
 .
