@@ -55,7 +55,7 @@ body{
     max-width: 1290px;
     margin: 0 auto;
     padding: 40px  70px 0px 70px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17) 7%,rgba(119, 119, 119, 0) 100%), linear-gradient(360.00deg, rgb(17, 17, 17) ,rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17) 7%,rgba(119, 119, 119, 0) 100%), linear-gradient(360.00deg, rgb(0, 0, 0) 12% ,rgba(119, 119, 119, 0) 100%);
 }
 .navbar{
     display: flex;
@@ -113,7 +113,7 @@ body{
 
 .baner-section{
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
 }
 .baner-title{
@@ -127,11 +127,12 @@ body{
 .child-baner-2{
     position: relative;
     padding-right: 50px;
-   padding-top: 30px;
+    padding-top: 30px;
 }
 
 .child-baner-2 img{
     width: 100%;
+    height: 100%;
 }
 
 .mini-child-1{
@@ -270,12 +271,12 @@ margin-bottom: 1.5rem;
 
 /* second section */
 .run-section{
+    max-width: 1000px;
+    margin: 5rem auto;
     display: grid;
     grid-template-columns: 500px 390px;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    margin: 5rem auto;
     background-color: var(--secondry-bg-color);
     padding: 1.3rem;
     border-radius: 9px;
@@ -283,14 +284,14 @@ margin-bottom: 1.5rem;
 
 
 
-.run-title{
+.run-title, .traningTitle{
     font-size: var(--title-size);
     color: var(--title-color);
     font-weight: var(--title-weight);
      margin-bottom:1rem ;
 }
 
-.run-discription{
+.run-discription, .taningDec{
     font-size: var(--peraghaph-font-size);
     color: var(--peraghaph-color);
     font-weight: var(--p-font-weight);
@@ -301,6 +302,103 @@ margin-bottom: 1.5rem;
     max-width: 100%;
     border-radius: 10px;
 }
+
+ /* traning section  */
+
+ .traningZone{
+    max-width: 1000px;
+    margin: 3rem auto;
+ }
+
+ .taningText{
+    max-width: 600px;
+ }
+
+ .traningContainers{
+    max-width: 1000px;
+    height: 400px;
+    margin: 2rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+ }
+
+ .childTraning:nth-child(2){
+    grid-column: 2/5;
+ }
+ 
+ .childTraning:nth-child(4){
+    grid-column: 1/3;
+ }
+ 
+ .childTraning:nth-child(6){
+    grid-column: 4/6;
+ }
+ 
+ .childTraning>img{
+    width: 100%;
+    height: 100%;
+ }
+
+  .childTraning{
+    height: 200px;
+    position: relative;
+  }
+  
+
+ .child-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 255, 210, 0.5);
+    top: 0;
+    left: 0;
+ }
+
+ .child-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+    top: 0;
+    left: 0
+ }
+ 
+ .child-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0
+ }
+
+ .child-4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0
+ }
+
+ .child-5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+    top: 0;
+    left: 0
+ }
+
+ .child-6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+    top: 0;
+    left: 0
+ }
+
 
 /* calculator section */
 
