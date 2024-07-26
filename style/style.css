@@ -316,10 +316,10 @@ margin-bottom: 1.5rem;
 
  .traningContainers{
     max-width: 1000px;
-    height: 400px;
     margin: 2rem auto 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    padding: 1.3rem;
  }
 
  .childTraning:nth-child(2){

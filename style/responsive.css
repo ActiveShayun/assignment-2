@@ -111,6 +111,30 @@
          text-align: center;
     }
 
+       /* traning section  */
+
+       .traningZone{
+        width: 96%;
+
+       
+     }
+
+     .taningText{
+         width: 100%;
+         border: 1px solid red;
+         padding: 1rem;
+     }
+
+    .traningTitle{
+        font-size: 1.9rem;
+     } 
+     
+     .childTraning{
+        height: 150px;
+     
+      }
+
+    
        /* calculator section */
 
        .calculatore-section {
