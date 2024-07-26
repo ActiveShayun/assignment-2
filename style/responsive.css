@@ -53,22 +53,22 @@
         height: 90px;
         display: flex;
         top: 80px;
-        right: 1rem;
+        right: 0rem;
         backdrop-filter: blur(15.12px);
     }
 
     .mini-child-2 {
          width: 180px;
          height: 90px;
-         top: 240px;
+         top: 235px;
          left: 0;
     }
       /* main contant */
 
       .main-containers {
         width: 96%;
-      padding-bottom: 4rem;
-        border: 1px solid yellow;
+        padding-bottom: 4rem;
+       
       }
        /* first section  start */
 
@@ -83,13 +83,14 @@
     
       .child-habit {
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        padding: 0 4rem;
+        width: 90%;
+        gap: 4rem;
+         padding: 0 2rem;
+        border: 1px solid red;
     }
 
       .imag-box {
         width: 300px;
-        margin-bottom: 2rem;
     }
 
              /* second section */
