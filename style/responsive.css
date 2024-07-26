@@ -1,7 +1,7 @@
 
 /* responsive for mobile devise */
 
-@media screen and (min-width: 410px) and (max-width:576px){
+@media screen and (min-width: 410px) and (max-width:577px){
      
     .header {
         width: 96% ;
@@ -60,7 +60,7 @@
     .mini-child-2 {
          width: 180px;
          height: 90px;
-         top: 235px;
+         top: 270px;
          left: 0;
     }
       /* main contant */
@@ -82,15 +82,19 @@
         }
     
       .child-habit {
-        grid-template-columns: repeat(1, 1fr);
-        width: 90%;
-        gap: 4rem;
-         padding: 0 2rem;
-        border: 1px solid red;
+         grid-template-columns: repeat(1, 1fr);
+         width: 95%;
+         gap: 4rem;
+         padding: 0 1rem;
+
     }
 
       .imag-box {
-        width: 300px;
+        width: 290px;
+    }
+
+      .imag-box img{
+        width: 240px;
     }
 
              /* second section */
@@ -162,11 +166,10 @@
      align-items: center;
      justify-items: center;
      grid-template-columns: repeat(1, 1fr);
-    gap: 0;
 }
 
 .child-team {
-    width: 350px;
+    width: 335px;
     height: 270px;
 }
 .child-team img{
