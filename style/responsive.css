@@ -5,6 +5,7 @@
      
     .header {
         width: 96% ;
+        height: 1030px;
         margin: 0 auto;
         padding: 1rem 2%;
     }
@@ -54,13 +55,12 @@
         display: flex;
         top: 80px;
         right: 0rem;
-        backdrop-filter: blur(15.12px);
     }
 
     .mini-child-2 {
          width: 180px;
          height: 90px;
-         top: 270px;
+         top: 227px;
          left: 0;
     }
       /* main contant */
