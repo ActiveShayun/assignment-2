@@ -132,6 +132,15 @@
      
       }
 
+      #handPress, #imgTitle{
+        display: none;
+      }
+
+      #pushup, #jump, #legspress, #legspress{
+        font-size: 0.8rem;
+      } 
+
+
        /* calculator section */
 
        .calculatore-section {
