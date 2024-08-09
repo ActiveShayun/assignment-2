@@ -272,7 +272,7 @@ margin-bottom: 1.5rem;
 /* second section */
 .run-section{
     max-width: 1000px;
-    margin: 5rem auto;
+    margin: 4rem auto 3rem;
     display: grid;
     grid-template-columns: 500px 390px;
     justify-content: space-between;
@@ -280,10 +280,7 @@ margin-bottom: 1.5rem;
     background-color: var(--secondry-bg-color);
     padding: 1.3rem;
     border-radius: 9px;
-   
 }
-
-
 
 .run-title, .traningTitle{
     font-size: var(--title-size);
@@ -465,7 +462,7 @@ margin-bottom: 1.5rem;
      }
 
      .planChild:hover  i{
-           color: white;
+           color: rgb(255, 255, 255, 0.7);
      }
 
      .planChild:hover img{
@@ -794,6 +791,7 @@ table caption{
     font-weight: var(--title-weight);
     color: var(--title-color);
     margin-bottom: 1.5rem;
+    text-align: left;
 }
 
 /* form style */
@@ -801,7 +799,7 @@ table caption{
     font-size: 1.5rem ;
     font-weight: var(--title-weight);
     color: var(--title-color);
-    margin-bottom: 0.6rem;
+    margin-bottom: 1.5rem;
 }
 
 .bmi-discription{
@@ -910,7 +908,7 @@ table caption{
     max-width: 1290px;
     height: 400px;
     background-color: var(--secondry-bg-color);
-    margin: 3rem auto 0;
+    margin: 0 auto 0;
     padding: 4rem 10rem 7rem;
 }
 .footer .lastDec{
@@ -935,20 +933,15 @@ table caption{
     font-weight: var(--p-font-weight);
 }
 
-
-
 .childFooter:first-child{
     max-width: 450px;
     height: 172px;
 }
 
-
 .childFooter:nth-child(2){
     width: 170px;
     height: 172px;
-
 }
-
 
 .childFooter:last-child{
     width: 170px;
