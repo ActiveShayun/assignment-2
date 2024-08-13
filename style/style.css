@@ -166,14 +166,11 @@ body{
      left: -100px;
 }
 
-.baby-1{
-    width: 25px;
-    height: 25px;
-    background-color: var(--btn-backround-color);
-    border-radius: 50%;
-    margin-right: 10px;
+.mini-child-2 i{
+    color: var(--btn-backround-color);
+    font-size: 2rem;
+    margin-right: 0.7rem;
 }
-
 .same{
     color: var(--peraghaph-color);
     font-size: var(--peraghaph-font-size);
@@ -768,16 +765,15 @@ margin-bottom: 1.5rem;
 table{
  border-collapse:  collapse;
  height: 230px;
-
 }
 
-table tr, th,  td{
-     border: 2px solid var(--main-bg-color);
+ 
+table th, tr, td  {
      text-align: left;
      padding: 0.6rem;
      color: var(--peraghaph-color);
      font-weight: var(--p-font-weight);
-     border: 1px solid var(--peraghaph-color);
+     border: 1px solid var(--peraghaph-color) ;
 
 }
 
@@ -830,6 +826,11 @@ table caption{
     border-radius: 7px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
+    padding-right: 0.5rem;
+}
+
+select option{
+    background-color: var(--secondry-bg-color);
 }
 
 
